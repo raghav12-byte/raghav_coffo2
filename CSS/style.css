@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    border-top: 5px brown solid;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/banner-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: cover;
+}
+
+#mynavigation{
+    background: none;
+    border: none;
+}
+
+#mynavigation a{
+    color:#fff;
+}
+
+
+.banner{
+    margin-top: 120px;
+    margin-left: 120px;
+    width: 40%;
+    text-align: left;
+    color: #fff;
+}
+
+
+.banner h1{
+    font-size: 50px;
+}
+
+.banner p{
+    font-size: 20px;
+}
+
+button{
+    margin-top: 40px;
+    height: 40px;
+    width: 150px;
+    border: none;
+    background-color: red;
+    color: #fff;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.button1{
+    margin-top: 40px;
+    margin-left: 10px;
+    height: 40px;
+    width: 150px;
+    border: none;
+    background-color: #fff;
+    color: red;
+    border-radius: 10px 10px 10px 10px;
+}
+
+/* second section */
+.s-top h1 b{
+    font-size: 50px;
+    color: #000;
+    text-align: left;
+}
+
+
+.s-top h1{
+    font-size: 45px;
+    color: #000;
+    text-align: left;
+}
+
+
+.def img{
+    width: 100%;
+}
+
+
+.s-top{
+    font-size: 18px;
+    color: #000;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+.button2{
+    margin-top: 40px;
+    margin-left: 10px;
+    height: 40px;
+    width: 150px;
+    background-color: #fff;
+    border-radius: 10px 10px 10px 10px;
+    border: 1px red solid;
+}
+
+
+/* third section */
+.third{
+    text-align: center;
+}
+
+
+.b1{
+    background-color: #242c2f;
+    color: #fff;
+}
+
+.b1 h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.b1 img{
+    width: 100%;
+}
+
+
+.button3{
+    margin-left: 10px;
+    height: 40px;
+    width: 150px;
+    background-color: #242c2f;
+    border: 1px #fff solid;
+    border-radius: 0;
+    margin-bottom: 20px;
+}
+
+.bx1{
+    /* background-color: yellow; */
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.bx1 h1{
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.bx3{
+    width: 100%;
+    margin: 0 auto;
+    /* background-color: red; */
+}
+
+
+
+.bx2 h3{
+    font-size: 40px;
+}
+
+
+.bx2 p{
+    font-size: 18px;
+}
+
+
+/* third section */
+
+
+.card{
+    box-shadow: 5px 5px 10px grey;
+}
+
+.content{
+    padding: 20px;
+}
+
+
+/* fourth section */
+
+.form{
+    margin-top: 40px;
+}
+
+form{
+    margin-top: 60px;
+    text-align: center;
+}
+
+/* fifth section */
+.footer{
+    /* height: 400px; */
+    margin-top: 100px;
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+}
+
+.bx5{
+    margin-top: 30px;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.bx6{
+    margin-top: 30px;
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.bx7{
+    margin-top: 30px;
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.bx8{
+    margin-top: 30px;
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+
+.form2{
+    margin: 0 auto;;
+    width: 50%;
+    padding-bottom: 40px;
+}
+
+
+@media only screen and (max-width: 576px)
+{
+    /* .banner{
+        margin: 0 auto;
+        text-align: center;
+    } */
+
+    header{
+        height: 80vh;
+    }
+
+    .banner h1{
+        font-size: 90px;
+    }
+
+    .banner p{
+        font-size: 22px;
+    }
+
+    .banner{
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    .def{
+        margin-top: 40px;
+    }
+
+    .box{
+        margin-top: 40px;
+    }
+
+    .bx1{
+        text-align: center;
+
+    }
+
+    .bx3{
+        margin: 0 auto;
+    }
+
+    .cx{
+        margin-top: 40px;
+    }
+
+    .button2{
+        margin-top: 0px;
+    }
+}
